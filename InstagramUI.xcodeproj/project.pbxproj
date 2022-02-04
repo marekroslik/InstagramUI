@@ -11,6 +11,7 @@
 		F919B3F727AC2CD700350D75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919B3F627AC2CD700350D75 /* ContentView.swift */; };
 		F919B3F927AC2CD700350D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F919B3F827AC2CD700350D75 /* Assets.xcassets */; };
 		F919B3FC27AC2CD700350D75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F919B3FB27AC2CD700350D75 /* Preview Assets.xcassets */; };
+		F97D0F5D27AC571F004A2597 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D0F5C27AC571F004A2597 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F919B3F627AC2CD700350D75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F919B3F827AC2CD700350D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F919B3FB27AC2CD700350D75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F97D0F5C27AC571F004A2597 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				F919B3F427AC2CD700350D75 /* InstagramUIApp.swift */,
-				F919B3F627AC2CD700350D75 /* ContentView.swift */,
+				F97D0F5B27AC56EB004A2597 /* Views */,
 				F919B3F827AC2CD700350D75 /* Assets.xcassets */,
 				F919B3FA27AC2CD700350D75 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				F919B3FB27AC2CD700350D75 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F97D0F5B27AC56EB004A2597 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F919B3F627AC2CD700350D75 /* ContentView.swift */,
+				F97D0F5C27AC571F004A2597 /* ProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F919B3F727AC2CD700350D75 /* ContentView.swift in Sources */,
+				F97D0F5D27AC571F004A2597 /* ProfileView.swift in Sources */,
 				F919B3F527AC2CD700350D75 /* InstagramUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
